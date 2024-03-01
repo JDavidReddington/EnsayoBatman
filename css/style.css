@@ -1,0 +1,36 @@
+
+@keyframes moverFondo {
+	0% {
+		background-position: right center;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: right center;
+		background-size: 150%;
+	}
+}
+
+body {
+    margin: 0; /* Elimina el margen predeterminado */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    background-image: url(https://live.staticflickr.com/126/387606063_be63334fd8_h.jpg);
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    animation: moverFondo 2s ease 0s 1 normal forwards;
+}
+
+h1{
+    font-family: Impact;
+font-size: 60px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #ff0000;
+font-weight: bold;
+text-decoration: overline;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-align: center;
+}
+
